@@ -1,0 +1,29 @@
+<%- include ("partials/header"); -%> 
+
+
+
+<h1>Compose</h1>
+
+<form action="/compose" method="POST">
+
+
+    <div class="form-group" >
+    <label for="basic-url" class="form-label">Title</label>
+  <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3" name="postTitle">
+
+
+<label for="basic-url" class="form-label">Post</label>
+  <textarea class="form-control" aria-label="With textarea"  rows="5"  cols="30" name="postContent">
+</textarea>
+</div>
+
+<button type="submit" class="btn btn-primary"  name="button">Public</button>
+
+</form>
+
+
+
+<%- include ("partials/footer"); -%> 
+
+
+<!-- input-group input-group-lg -->
